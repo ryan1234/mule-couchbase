@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><site><feature id="couchbase-connector-feature" url="features\couchbase-connector-feature_1.0.0.20124171134.jar" version="1.0.0.20124171134"><category name="connector"/></feature><category-def label="connector" name="connector"/></site>

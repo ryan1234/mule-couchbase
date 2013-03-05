@@ -1,0 +1,11 @@
+<!-- BEGIN_INCLUDE(couchbase:Get) -->
+    <couchbase:Get key="#[map-payload:key]" />
+<!-- END_INCLUDE(couchbase:Get) -->
+
+<!-- BEGIN_INCLUDE(couchbase:Store) -->
+	<couchbase:Store key="somekey" value="someobject"/>
+<!-- END_INCLUDE(couchbase:Store) -->
+
+<!-- BEGIN_INCLUDE(couchbase:Remove) -->
+	<couchbase:Remove key="#[map-payload:key]"/>
+<!-- END_INCLUDE(couchbase:Remove) -->
