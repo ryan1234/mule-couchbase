@@ -7,6 +7,10 @@ BUILDING
 ========
 Run the Maven command "mvn package -Ddevkit.studio.package.skip=false" to build the connector.
 
+DEPENDENCIES
+============
+This connector is meant to work with the Java Couchbase 1.0.3 client. It's not guaranteed to work with later versions. =) 
+
 INSTALLING IN MULE STUDIO
 =========================
 After you've succesfully built the connector, you need to follow these steps to install in Mule Studio:
